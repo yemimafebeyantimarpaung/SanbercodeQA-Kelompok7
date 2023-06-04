@@ -2,7 +2,7 @@ describe('Edit user', () => {
     it('Edit username', () => {
         cy.login()
         cy.get(':nth-child(1) > .oxd-main-menu-item > .oxd-text').click() //klik menu admin
-        cy.get('.oxd-autocomplete-text-input > input').type('Lisa')
+        cy.get('.oxd-autocomplete-text-input > input').type('Paul')
         cy.wait(4000)
         cy.get('.oxd-autocomplete-option').click()
         cy.get('.oxd-form-actions > .oxd-button--secondary').click({force: true})
