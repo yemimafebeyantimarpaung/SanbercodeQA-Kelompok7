@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -8,8 +8,8 @@
 // commands please read more here:
 // https://on.cypress.io/custom-commands
 // ***********************************************
-=======
->>>>>>> 224102f9170352c2edde27da9feed65262bc058f
+// =======
+// >>>>>>> 224102f9170352c2edde27da9feed65262bc058f
 
 Cypress.Commands.add('login', () => {
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
