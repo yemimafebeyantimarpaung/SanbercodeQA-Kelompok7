@@ -5,6 +5,5 @@ describe('List user', () => {
         cy.get('.--visited > .oxd-topbar-body-nav-tab-item').click()
         cy.get('.oxd-dropdown-menu > li').should('be.visible').click()
         cy.url().should('include', '/admin/viewSystemUsers')
-        
     })
 })
